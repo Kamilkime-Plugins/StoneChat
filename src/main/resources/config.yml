@@ -1,0 +1,36 @@
+# Ustawienia przechowywania danych, dostępne bazy danych: MYSQL lub SQLITE
+# Baza SQLITE jest zalecana - jest całkowicie lokalna i nie wymaga instalacji dodatkowego oprogramowania
+database:
+  tableName: "stonechat"
+  mode: SQLITE
+  sqlite:
+    fileName: "data/data.db"
+  mysql:
+    host: "127.0.0.1"
+    port: 3306
+    database: "minecraft"
+    user: "minecraft"
+    password: "minecraft"
+    useSSL: true
+    poolSize: 3
+
+# Co ile sekund powinny być zapisywane dane graczy online
+# Dane są dodatkowo zapisywane przy wyjściu gracza i przy wyłączeniu serwera
+autosaveInterval: 120
+
+# Reszta ustawień:
+#  > Uruchomienie chatu
+#  > Liczba wykopanych bloków kamienia potrzebna do pisania na chacie
+#  > Slowmode na chacie
+#
+# Ustawienia te są ustawiane komendami:
+#  > /chat <on/off/toggle>
+#  > /chat stone <liczba>
+#  > /chat slow <czas_w_sekundach>
+#
+# Domyślne wartości:
+#  > Chat uruchomiony
+#  > 100 wykopanego kamienia
+#  > Slowmode wyłączony (0 sekund)
+#
+# Wszystkie informacje o konfiguracji można znaleźć pod adresem: https://github.com/Kamilkime/StoneChat

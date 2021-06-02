@@ -1,0 +1,31 @@
+name: StoneChat
+version: @version@
+main: pl.kamilkime.stonechat.StoneChat
+description: "Zarządzanie chatem w jednej komendzie"
+author: "Kamilkime"
+website: https://kamilki.me/
+
+commands:
+  stonechat:
+    description: "Zarządzanie chatem w jednej komendzie"
+    aliases: [c, chat]
+
+permissions:
+  stonechat.*:
+    default: op
+    children:
+      stonechat.on: true
+      stonechat.off: true
+      stonechat.toggle: true
+      stonechat.stone: true
+      stonechat.clear: true
+      stonechat.slow: true
+      stonechat.reload: true
+      stonechat.help: true
+      stonechat.bypass.*: true
+  stonechat.bypass.*:
+    default: op
+    children:
+      stonechat.bypass.chatoff: true
+      stonechat.bypass.stone: true
+      stonechat.bypass.slowmode: true

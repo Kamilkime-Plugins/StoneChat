@@ -1,0 +1,74 @@
+# Brak uprawnień do komendy
+noPermission: "&cBrak uprawnień"
+
+# Komenda /chat on
+chatAlreadyOn: "&cChat jest już włączony"
+chatBroadcastOn:
+- ""
+- "&7Chat został &awłączony &7przez &a{PLAYER}"
+- ""
+
+# Komenda /chat off
+chatAlreadyOff: "&cChat jest już wyłączony"
+chatBroadcastOff:
+- ""
+- "&7Chat został &cwyłączony &7przez &c{PLAYER}"
+- ""
+
+# Komenda /chat clear
+chatCleared:
+- ""
+- "&7Chat został wyczyszczony przez &a{PLAYER}"
+- ""
+
+# Komenda /chat help
+commandHelp:
+- "&7/stonechat on &8- &aWłącza chat"
+- "&7/stonechat off &8- &aWyłącza chat"
+- "&7/stonechat toggle &8- &aPrzełącza uruchomienie chatu"
+- "&7/stonechat clear &8- &aCzyści chat"
+- "&7/stonechat slow <czas_w_sekundach> &8- &aUstawia slowmode, 0 wyłącza slowmode"
+- "&7/stonechat stone <liczba> &8- &aUstawia wymóg kamienia do pisania na chacie"
+- "&7/stonechat reload &8- &aPonownie załadowuje config i wiadomości"
+
+# Komenda /chat reload
+reloadComplete: "&aStonechat prawidłowo przeładowany"
+
+# Komenda /chat slow
+slowCorrectUsage: "&cPoprawne użycie: &7/chat slow <czas_w_sekundach>"
+slowmodeSet:
+- ""
+- "&7Slowmode na chacie włączone przez &c{PLAYER}&7, można pisać co &c{TIME}s"
+- ""
+slowmodeOff:
+- ""
+- "&7Slowmode na chacie &awyłączone &7przez &a{PLAYER}"
+- ""
+
+# Komenda /chat stone
+stoneCorrectUsage: "&cPoprawne użycie: &7/chat stone <liczba>"
+stoneSet:
+- ""
+- "&7Wymóg wykopanego kamienia zmieniony na &c{AMOUNT} &7przez &c{PLAYER}"
+- ""
+stoneDisabled:
+- ""
+- "&7Wymóg wykopanego kamienia &awyłączony &7przez &a{PLAYER}"
+- ""
+
+# Informacja o wyłączonym chacie
+chatOffInfo: "&cChat jest obecnie wyłączony"
+
+# Informacja o wymogu wykopania kamienia
+chatStoneInfo: "&cNie możesz jeszcze pisać na chacie, musisz najpierw wykopać &7{REQUIRED} &ckamienia. Obecnie masz wykopane &7{MINED}"
+
+# Informacja o wykopaniu wymaganej liczby kamieni
+chatStoneEnabled: "&aWykopałeś wystarczająco dużo kamienia, aż &7{REQUIRED} &a- możesz już pisać na chacie"
+
+# Informacja o slowmode na chacie
+chatSlowmodeInfo:
+- ""
+- "&cObecnie uruchomiony jest slowmode na chacie"
+- "&cMożna pisać co &7{SLOWMODE}s"
+- "&cNastępną wiadomość możesz napisać za &7{COOLDOWN}s"
+- ""
